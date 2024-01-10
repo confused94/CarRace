@@ -1,0 +1,543 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1695602454700025, "dur": 14347921, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695602454700397, "dur": 3639, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695602454704044, "dur": 118184, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695602454822232, "dur": 1315730, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695602456137966, "dur": 12907860, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695602469045829, "dur": 2116, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695602469048367, "dur": 32, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1695602455848090, "dur": 274407, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1695602455849064, "dur": 45424, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1695602456096136, "dur": 9034, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1695602456105175, "dur": 17313, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1695602456106838, "dur": 14932, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1695602456128032, "dur": 1363, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1695602456127197, "dur": 2222, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695602469049567, "dur": 794, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1695602456194900, "dur":3510, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602456198418, "dur":71, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1695602456198501, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1695602456198522, "dur":266, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1695602456198808, "dur":537, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602456199345, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995538, "dur":103, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995641, "dur":141, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995782, "dur":103, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995885, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995896, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995899, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995905, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995907, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995913, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995916, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995922, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995924, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995930, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995933, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995939, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995941, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995948, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602468995958, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602469022809, "dur":5092, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1695602456199446, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602456199447, "dur":4438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602456203885, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1695602456204082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602456206455, "dur":62164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1695602456268692, "dur":210430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1695602456479126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602456479135, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1695602456480396, "dur":699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn.exe" }}
+,{ "pid":12345, "tid":1, "ts":1695602456481099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602456481106, "dur":47151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn.exe" }}
+,{ "pid":12345, "tid":1, "ts":1695602456528295, "dur":468890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602456997188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602457018228, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602457019494, "dur":28184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602457047682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602457047691, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602457050066, "dur":82977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602457133048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602457133059, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602457134448, "dur":23626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602457158080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602457158089, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602457159657, "dur":152993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602457312654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602457312663, "dur":87307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602457400018, "dur":949778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602458349803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602458349814, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602458351772, "dur":250711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602458602488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602458602495, "dur":64198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602458666710, "dur":344334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602459011048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602459011055, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602459012052, "dur":83751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602459095807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602459095814, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602459098074, "dur":134343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602459232427, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602459232497, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602459235451, "dur":196990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602459432446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602459432453, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602459433576, "dur":6554740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602465988320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695602465988326, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695602465990700, "dur":3004807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602456199405, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602456199406, "dur":4438, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602456203857, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1695602456203865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602456204596, "dur":284, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1695602456204886, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1695602456204909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602456205394, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1695602456207987, "dur":271203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1695602456479192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602456479198, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1695602456480384, "dur":207733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1695602456688121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602456688126, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1695602456689994, "dur":241633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602456931633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602456931908, "dur":86978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457018906, "dur":92714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457111627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602457111639, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457113103, "dur":35459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457148566, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602457148594, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457149879, "dur":23532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457173419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602457173430, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457174554, "dur":314227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457488784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602457488791, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457490474, "dur":140671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457631151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602457631162, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457632665, "dur":19062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457651791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602457651800, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457652741, "dur":72077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457724822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602457724829, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457725936, "dur":38247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457764187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602457764193, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602457765177, "dur":346288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602458111469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602458111477, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602458112507, "dur":19543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602458132054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602458132061, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602458133009, "dur":494177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602458627190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602458627197, "dur":39483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602458666700, "dur":1749566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602460416277, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602460416295, "dur":4756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602460421078, "dur":2222910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602462643995, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695602462644016, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695602462646472, "dur":6349054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695602456199835, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695602456199835, "dur":4048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695602456203883, "dur":265960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1695602456469849, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695602456469998, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1695602456471705, "dur":12247662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695602468719373, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695602468719384, "dur":276051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695602468995484, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1695602468995486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602456200058, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602456200058, "dur":3804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602456203862, "dur":275490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1695602456479355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602456479371, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1695602456480524, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1695602456480649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602456480988, "dur":118918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1695602456600004, "dur":524470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457124480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602457124492, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457125698, "dur":26938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457152643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602457152654, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457154018, "dur":36701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457190723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602457190730, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457191636, "dur":289195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457480838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602457480849, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457481907, "dur":57039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457538953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602457538963, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457540106, "dur":50483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457590594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602457590601, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457591517, "dur":75448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457666969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602457666976, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457668007, "dur":74927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457742939, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602457742947, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457743855, "dur":138660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457882519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602457882526, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602457883552, "dur":140003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602458023559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602458023567, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602458025010, "dur":47075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602458072089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602458072097, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602458073044, "dur":153048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602458226098, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602458226107, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602458227166, "dur":308765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602458535935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602458535942, "dur":124000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602458659967, "dur":173525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602458833498, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602458833537, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602458834553, "dur":557458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602459392015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602459392022, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602459393682, "dur":7336788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602466730475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695602466730484, "dur":56261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695602466786770, "dur":2208771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602456199951, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602456199951, "dur":3933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602456203885, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1695602456204089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602456206308, "dur":42323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1695602456248687, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1695602456248798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602456248805, "dur":16171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1695602456265043, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1695602456265192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602456265524, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1695602456269418, "dur":200463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1695602456469884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602456469890, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1695602456471702, "dur":2012079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695602458483785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602458483847, "dur":806063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695602459289958, "dur":703833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695602459993794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602459993801, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695602459995305, "dur":715852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695602460711159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602460711165, "dur":44933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695602460756264, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1695602460756432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602460756447, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1695602460758636, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1695602460758651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602460758656, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1695602460760305, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1695602460760339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602460760353, "dur":142351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1695602460902722, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1695602460902735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602460902740, "dur":76878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1695602460979634, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1695602460979719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602460979725, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1695602460980624, "dur":4588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1695602460985237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602460985243, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1695602460986250, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1695602460986261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602460986266, "dur":1409269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1695602462395555, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1695602462395571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602462395576, "dur":11042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1695602462406639, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1695602462406652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602462406658, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1695602462408020, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1695602462408034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602462408040, "dur":20308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1695602462428372, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1695602462428392, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602462428405, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1695602462430191, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1695602462430204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602462430209, "dur":14861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1695602462445090, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1695602462445112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695602462445122, "dur":10341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1695602462455485, "dur":6540045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602456199578, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602456199579, "dur":4282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602456203862, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1695602456204086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602456206485, "dur":33423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1695602456239959, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1695602456240068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602456240364, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1695602456242508, "dur":227335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1695602456469849, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602456469865, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1695602456471612, "dur":258375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602456729991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602456730232, "dur":288994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457019295, "dur":38419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457057718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602457057726, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457058759, "dur":102166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457160932, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602457160946, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457162335, "dur":324339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457486681, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602457486694, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457488054, "dur":139325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457627387, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602457627403, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457628525, "dur":161942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457790475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602457790486, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457791848, "dur":20054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457811962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602457811969, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457812845, "dur":18039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457830888, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602457830896, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457831830, "dur":63501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457895335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602457895342, "dur":77975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457973357, "dur":17720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457991081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602457991087, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602457992026, "dur":22234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458014266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602458014274, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458015213, "dur":135142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458150361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602458150370, "dur":34328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458184729, "dur":23955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458208687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602458208695, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458209882, "dur":32218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458242104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602458242127, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458244387, "dur":101287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458345678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602458345687, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458346849, "dur":76594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458423464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602458423471, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458424467, "dur":170624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458595096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602458595103, "dur":70772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458665900, "dur":270605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458936509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602458936515, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602458937586, "dur":69072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602459006662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602459006669, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602459007666, "dur":509741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602459517413, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602459517423, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602459518917, "dur":34824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602459553746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602459553756, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602459555002, "dur":961703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602460516709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602460516717, "dur":4689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602460521422, "dur":32434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602460553860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602460553868, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602460554779, "dur":153388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602460708179, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602460708202, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695602460710198, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695602460710218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602460710224, "dur":48158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695602460758422, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695602460758449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602460758466, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695602460761393, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695602460761412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602460761421, "dur":1648842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695602462410285, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1695602462410303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602462410311, "dur":18051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1695602462428383, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1695602462428427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602462428432, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1695602462430279, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695602462430297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602462430303, "dur":14757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695602462445096, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1695602462445125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602462445130, "dur":10311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1695602462455472, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1695602462455658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695602462455667, "dur":38968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1695602462494654, "dur":6500886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602456199687, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602456199687, "dur":4195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602456203883, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1695602456204081, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602456206290, "dur":62457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1695602456268830, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1695602456268971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602456269050, "dur":20240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1695602456289343, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1695602456289481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602456289488, "dur":37054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1695602456326602, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1695602456326716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602456326722, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1695602456328532, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1695602456328660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602456328665, "dur":185980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1695602456514741, "dur":723959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457238704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602457238711, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457239939, "dur":27225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457267168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602457267175, "dur":130814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457398043, "dur":181164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457579211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602457579219, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457580167, "dur":101310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457681483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602457681494, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457682577, "dur":66285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457748867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602457748874, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457750101, "dur":22065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457772171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602457772178, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457773216, "dur":29440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457802660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602457802668, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457803709, "dur":108179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457911892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602457911899, "dur":61538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602457973453, "dur":64309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602458037766, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602458037776, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602458038724, "dur":170259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602458208985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602458208991, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602458210062, "dur":79521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602458289587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602458289594, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602458290505, "dur":20871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602458311380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602458311387, "dur":14396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602458325804, "dur":41440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602458367248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602458367255, "dur":298327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602458665602, "dur":191231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602458856837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602458856844, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602458857922, "dur":1548020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602460405948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602460405959, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602460407659, "dur":6812859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602467220521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695602467220527, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695602467223225, "dur":1772302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602456199800, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602456199801, "dur":4045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602456203857, "dur":888610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1695602457092471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602457092716, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1695602457093588, "dur":319224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457412817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602457412824, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457413980, "dur":115820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457529804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602457529811, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457530829, "dur":88254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457619092, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602457619110, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457621121, "dur":40695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457661820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602457661828, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457663019, "dur":45633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457708657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602457708664, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457709685, "dur":18348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457728043, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602457728060, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457729376, "dur":123420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457852800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602457852808, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602457853794, "dur":289407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602458143205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602458143212, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602458144216, "dur":26203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602458170423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602458170429, "dur":14583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602458185025, "dur":23153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602458208182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602458208189, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602458209256, "dur":64045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602458273305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602458273312, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602458274557, "dur":115451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602458390011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602458390018, "dur":275542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602458665589, "dur":233157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602458898751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602458898758, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602458899782, "dur":744442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602459644229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602459644237, "dur":329741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602459974005, "dur":421253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602460395268, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602460395304, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602460397097, "dur":118563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602460515664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602460515672, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602460516856, "dur":20100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602460536960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602460536967, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602460537904, "dur":21111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602460559066, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602460559085, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695602460560417, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1695602460560436, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602460560494, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1695602460561738, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695602460561756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602460561762, "dur":79954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695602460641738, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":8, "ts":1695602460641754, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602460641761, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":8, "ts":1695602460643110, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1695602460643126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602460643133, "dur":67039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1695602460710195, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695602460710212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602460710220, "dur":647255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695602461357511, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695602461357540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602461357557, "dur":1071003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695602462428586, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1695602462428607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602462428612, "dur":16455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1695602462445090, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695602462445112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695602462445122, "dur":10415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ekrem/Desktop/autobahn/AutoBahn_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695602462455567, "dur":6539955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695602469030683, "dur":2826, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1695602469050458, "dur": 13726, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695602469048341, "dur": 15881, "ph": "X", "name": "Write chrome-trace events", "args": {} },

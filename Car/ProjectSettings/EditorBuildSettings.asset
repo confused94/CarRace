@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/mainmenu.unity
+    guid: 40f2185b0d1679840afbbe4a14e8d35a
+  - enabled: 1
+    path: Assets/Scenes/ayarlar.unity
+    guid: 26c58755fa2683144b6e68892dae5999
+  - enabled: 1
+    path: Assets/Scenes/secim.unity
+    guid: b2c16e5b69ea4c44e93d8606452094ba
+  - enabled: 1
+    path: Assets/Scenes/singlescene.unity
+    guid: 17f3151cc1f4282498fe3d3c04b90859
+  - enabled: 1
+    path: Assets/Scenes/splitscene.unity
+    guid: ddc692889e2fe7b4fbbcb8c61deab39a
+  m_configObjects: {}
